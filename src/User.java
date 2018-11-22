@@ -26,27 +26,4 @@ public class User {
 	public void addMovie(int movie, double rating){
 		this.movies.add(new RatingMovie(movie, rating));
 	}
-	
-	public static class RatingMovie{//classe para uma estrutura de dados da classe Usuário
-		private int movie;
-		private double rating;
-		
-		public RatingMovie(int movie, double rating) {			
-			this.movie = movie;
-			this.rating = rating;
-		}
-		
-		public int getMovie() {
-			return movie;
-		}
-		public void setMovie(int movie) {
-			this.movie = movie;
-		}
-		public double getRating() {
-			return rating;
-		}
-		public void setRating(double rating) {
-			this.rating = rating;
-		}		
-	}
 }
