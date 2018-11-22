@@ -4,4 +4,7 @@ Na segunda fase, uma análise estatística básica é feita com os dados. Inform
 
 Por fim, algumas características gerais sobre os dados são extraídas na terceira fase. Informações de qual foi o filme mais visto (mais ratings), filme com maior rating (considerando apenas filmes com número de ratings maior que número médio de ratings por filme), gênero mais visto (mais ratings), gênero com maior rating (relação entre gênero e rating), gênero com mais filmes, gênero com mais filmes de rating 5 (mais filmes "bons"), gênero com mais filmes de rating 5 (mais filmes "bons") proporcional ao que produziu, gênero com maior desvio padrão no rating (maior heterogeneidade entre os usuários) e gêneros mais correlacionados (filmes que possuem ambos os gêneros) foram obtidas dos arquivos.
 
-A análise exploratória foi realizada com a linguagem de programação Java, junto das APIs Apache Commons CSV e Apache Commons Math.
+A análise exploratória foi realizada com a linguagem de programação Java, junto das APIs Apache Commons CSV e Apache Commons Math. Se a execução do código demorar muito, vc pode utilizar a versão menor do MovieLens [1, 2], que foi utilizada durante o desenvolvimento do código e os testes. O teste final foi realizado com a versão completa da base do MovieLens.
+
+[1] https://grouplens.org/datasets/movielens/
+[2] http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
